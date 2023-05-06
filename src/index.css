@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.xtable {
+  table-layout: fixed;
+}
+
+.xtable td {
+  font-size: small;
+  width: 30px;
+  height: 30px;
+  background-color: antiquewhite;
+  border: 1px solid grey;
+  vertical-align: middle;
+}
+
+.tableIndex {
+  background-color: rgb(255, 193, 79) !important;
+}
