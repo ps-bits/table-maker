@@ -37,16 +37,20 @@
 <noscript>You need to enable JavaScript to run this app.</noscript>
 
 <div class="columns">
-<div class="column is-one-third">
+<div id="editor-column" class="column is-one-third">
 
-<div id="editor" style="height: 300px; width: 500px; resize: both;">function foo(row, col) {
+<div id="editor" style="height: 300px; width: 500px; resize: both;">function value(row, col) {
     return row*col;
+}
+
+function cellColor(row, col) {
+  return "lightgrey";
 }
 </div>
 
   <script>
     var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/monokai");
+    editor.setTheme("ace/theme/chaos");
     editor.session.setMode("ace/mode/javascript");
 
     editor.setOptions({
@@ -57,7 +61,7 @@
 
 
 </div>
-<div class="column">
+<div id="table-column" class="column">
 
     <div id="root"></div>
 

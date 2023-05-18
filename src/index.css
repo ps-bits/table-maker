@@ -25,11 +25,26 @@ table td {
   font-size: small;
   width: 30px;
   height: 30px;
-  background-color: antiquewhite;
+  background-color: rgb(233, 233, 233);
   border: 1px solid grey;
   vertical-align: middle;
 }
 
 .tableIndex {
-  background-color: rgb(255, 193, 79) !important;
+  background-color: rgb(190, 190, 190) !important;
+}
+
+#table-config {
+  max-width: 20em;
+}
+
+#editor-column {
+  margin-top: 8px;
+  margin-left: 8px;
+  background-color: grey;
+}
+
+#table-column {
+  margin-top: 8px;
+  background-color: lightgrey;
 }
